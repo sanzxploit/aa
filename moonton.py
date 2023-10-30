@@ -93,10 +93,10 @@ class MOONTON:
 
   def main(self):
     print(
-      '[!] Pemisah email:password atau email|password\n'
+      'contoh pembatas email:password atau email|password\n'
     )
     empas = input(
-      '[?] List empas (ex: list.txt): '
+      'List empas (contoh: empass.txt): '
     )
     if os.path.exists(
       empas
